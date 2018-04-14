@@ -1,5 +1,51 @@
 *** This is DRAFT Detailed contents. will change to improve.  ****
 
+Here are some wild thoughts.
+
+Is this an overall doc site, or only for developers?
+
+It's best to have a system overview, like those in https://www.google.com/search?q=system+overview&tbm=isch.
+
+* system components (the outside, network architecture)
+  * short description of each
+  * how they're connected (protocol)
+
+* inside system: data structure, consensus
+  * accounts
+  * assets
+  * voting
+  * ...
+
+* people (roles) involved / services around
+  * what do they do
+
+* How to get started (for businesses, integration guide)
+  * if you're an external exchange
+  * if you want to run an exchange on top of BitShares
+  * if you're a merchant, or want to build tools for merchants, to accept bitUSD or etc
+  * if want to build data query or analysis service
+  * want to build tools for trading
+  * ...
+
+* How to get started (steps for developers)
+  * if you're a backend developer
+  * if you're a web developer
+  * if you're a mobile app developer
+  * script developer
+  * ...
+
+* How to get started (for users)
+  * download light wallet or use web wallet
+  * create an account
+  * transfer
+  * trade
+  * ...
+
+* for advanced users
+  * issue an asset
+  * botting
+  * ...
+
 
 ## 0. About
 
