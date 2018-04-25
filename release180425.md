@@ -1,6 +1,6 @@
 This is a bugfix release.
 
-In this release we fixed a bug in account history plugin, which may result in incorrect account history ID being stored under certain circumtances. Account history is mainly used by 3rd-party businesses for integration.
+In this release we fixed a bug in account history plugin, which may result in incorrect operation history ID being stored under certain circumtances. Account history is mainly used by 3rd-party businesses for integration.
 
 This bug doesn't affect consensus or chain security.
 
