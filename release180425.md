@@ -35,8 +35,8 @@ Here are some cases likely not affected by the bug. However, for your own safety
 
 ### More info about the bug
 
-The bug was in account history plugin, if `track-account` option is used in a node, when forking occurs (E.G. due to network latency issues), the node may unintendedly skip some IDs, so incorrect IDs will be stored and then be returned when being queried. A restart with `--replay-blockchain` may correct IDs of existing/historical data, but doesn't prevent new incorrect IDs from being stored.
+The bug was in account history plugin, if `track-account` option is used in a node, when forking occurs (E.G. due to network latency issues), the node may unintendedly skip some IDs. After that, incorrect IDs will be stored and then be returned when being queried. A restart with `--replay-blockchain` may correct IDs of existing/historical data, but doesn't prevent new incorrect IDs from being stored.
 
-After upgraded, the node won't skip IDs, so will always store correct IDs.
+After upgraded and replayed, the node won't skip IDs, so will always store correct IDs.
 
 Related issue and pull request: https://github.com/bitshares/bitshares-core/issues/585, https://github.com/bitshares/bitshares-core/pull/873.
