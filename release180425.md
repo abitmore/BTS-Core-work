@@ -14,7 +14,7 @@ Please:
 3. carefully check historical data retrieved from the node and stored outside before, by comparing them to new data returned by upgraded node, and
 4. perhaps review business data process logic.
 
-Please be aware that the 3rd step is important for businesses to avoid processing same transaction (E.G. a deposit) more than once. After restarted with `--replay-blockchain`, history object IDs may have changed. For example, before restart, `get_relative_account_history [account_name] 0 1 0` may return an operation ID `1.11.123456789` which indicates a deposit, but after restart, operation ID of the same deposit may have changed to `1.11.123456700`.
+Please be aware that the 3rd step is important for businesses to avoid processing same transaction (E.G. a deposit) more than once. After restarted with `--replay-blockchain`, history object IDs may have changed. For example, before restart, `get_relative_account_history [account_name] 0 1 0` may return an operation history ID `1.11.123456789` which indicates a deposit, but after restart, operation history ID of the same deposit may have changed to `1.11.123456700`.
 
 All earlier versions are affected.
 
