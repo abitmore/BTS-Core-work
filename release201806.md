@@ -57,7 +57,7 @@ This is a protocol upgrade release. All nodes should upgrade before `2018-07-19 
 
 * [Issue #859, PR #801 / #817] Fixed macOS and Ninja build errors introduced in last release
 
-* [Iuuse #136, PR #928] Fixed an asset supply calculation error in test case
+* [Issue #136, PR #928] Fixed an asset supply calculation error in test case
 
 * [Issue #943, PR #869 / #945] Improved a few assertion error messages
 
