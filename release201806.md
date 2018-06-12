@@ -41,7 +41,7 @@ This is a protocol upgrade release. All nodes should upgrade before `2018-07-19 
 
 * [Issue #727, PR #880] Added stack trace printing when node crashes (only for boost 1.65)
 
-* [Issue #878, PR #927] Made number of IO threads configurable (can be manual or auto)
+* [Issue #878, PR #927] Made number of I/O threads configurable (can be manual or auto)
 
 * [Issue #805, PR #840 / #919 / #937] Improved logging level and messages; added logging options about log-rotation
 
